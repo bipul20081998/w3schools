@@ -1,0 +1,1008 @@
+*{
+    padding: 0px;;
+    margin: 0px;
+    
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navigation-container{
+    height: 75px;  
+    
+    /* border: 1px solid black; */
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+}
+.nav1-container{
+    
+    width: 50%;
+    height: 75px;
+    /* border: 1px solid black; */
+    /* margin-top: 30px; */
+    display: flex;
+    /* flex-direction: row; */
+    
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.nav2-container{
+    
+    width: 50vw;
+    height: 75px;
+    /* border: 1px solid black; */
+    /* margin-top: 30px; */
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.nav-content:hover{
+    height: 75px;
+    display: block;
+    background-color: #04AA6D;;
+    align-items: center;
+    display: flex;;
+    
+}
+
+.nav-content1
+{
+    font-size: 42px;
+}
+.nav-content1 > p {
+    color: black;
+    font-size: 10px;
+}
+.nav-content1:hover{
+    height: 75px;
+    display: block;
+    font-size: 42px;
+    color: #04AA6D;
+    align-items: center;
+}
+
+.nav-content > span {
+    display: inline-block;
+    font-size: 15px;
+    background-color: white;
+    color : black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.nav2-content-website {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(223, 196, 196);
+    
+    border-radius: 25px;
+}
+
+.nav2-content-website:hover {
+    background-color: #04AA6D;
+}
+.nav2-content-website > span {
+    display: inline-block;
+    font-size: 15px;
+    background-color: white;
+    color : black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid bl;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+.nav2-content:hover {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    background-color: #04AA6D;
+}
+.nav2-content-login {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #04AA6D;
+    
+    border-radius: 25px;
+}
+
+
+/* ----------------html container------------------------- */
+.html-container {
+    height: 530px;
+    background-color:#282A35;
+    display: flex;
+    color: white;
+}
+
+.html1-container {
+    width: 50vw;
+    height: 530px;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-top: 75px;
+    
+}
+
+.html1-container > span {
+    padding-top: 10px;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.learn-html-container {
+    margin-top: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 200px;
+    text-align: center;
+    background-color: #04AA6D;
+    font-size: 15px;
+    border-radius: 25px;
+    font-weight: bolder;
+}
+.video-tutorial-btn {
+    margin-top: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 200px;
+    text-align: center;
+    background-color: #FFF4A3;
+    color: black;
+    font-size: 15px;
+    border-radius: 25px;
+    font-weight: bolder;
+}
+
+.html-referenes-btn {
+    margin-top: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    width: 200px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border-radius: 25px;
+    font-weight: bolder;
+}
+.heading-text {
+    
+    font-size: 92px;
+    font-weight: 750;
+    padding-bottom: 20px;
+}
+
+/* ---------------htmp2 container---------------- */
+.html2-container {
+    width: 50vw;
+    height: 530px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.html2-sub-container {
+    width: 595px;
+    height: 390px;
+    border: 1px solid #e9eaec;
+    border-left-width: thick;
+    border-right-width: thick;
+    border-bottom-width: thick;
+
+    background-color: #E7E9EB;
+    border-radius: 5px;
+    color: black;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.html-exapmle-headig > span {
+    
+    margin-top: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    width: 200px;
+    display: block;
+    background-color: #04AA6D;
+    color: white;
+    font-size: 15px;
+    border-radius: 25px;
+    font-weight: bolder;
+}
+.html-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 560px;
+    height: 220px;
+    background-color: white;
+    border-left: 4px solid #04AA6D;
+    /* border-left-color: 2px solid #04AA6D; */
+}
+
+/* ================= HTML container2 =================== */
+
+.html-container2 {
+    height: 530px;
+    background-color:#D9EEE1!important;
+    display: flex;
+    color: black;
+}
+.html-container2-heading-text {
+    color: black;
+    font-size: 92px;
+    font-weight: 750;
+    padding-bottom: 20px;
+}
+.css-text-style {
+    padding-top: 10px;
+    font-size: 17px;
+    font-weight: bolder;
+    color: black;
+}
+.CSS-referenes-btn {
+    margin-top: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-radius: 25px;
+    font-weight: bolder;
+}
+
+/* ===========================HTML-container3 ======================== */
+
+.html-container3 {
+    height: 530px;
+    background-color:#FFF4A3!important;
+    display: flex;
+    color: black;
+}
+.html-container2-heading-text {
+    color: black;
+    font-size: 92px;
+    font-weight: 750;
+    padding-bottom: 20px;
+}
+.css-text-style {
+    padding-top: 10px;
+    font-size: 17px;
+    font-weight: bolder;
+    color: black;
+}
+.learn-javascript-btn {
+    margin-top: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    width: 200px;
+    background-color: #04AA6D;;
+    color: white;
+    font-size: 15px;
+    border-radius: 25px;
+    font-weight: bolder;
+}
+.javascript-referenes-btn {
+    margin-top: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-radius: 25px;
+    font-weight: bolder;
+}
+
+/* ========================HTML-container4=====================*/
+
+.html-container4 {
+    height: 530px;
+    background-color:#282A35;
+    display: flex;
+    color: white;
+}
+.python-container2-heading-text {
+    color: white;
+    font-size: 92px;
+    font-weight: 750;
+    padding-bottom: 20px;
+}
+.python-text-style {
+    padding-top: 10px;
+    font-size: 17px;
+    font-weight: bolder;
+    color: white;
+}
+.learn-python-btn {
+    margin-top: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    width: 200px;
+    background-color: #04AA6D;;
+    color: white;
+    font-size: 15px;
+    border-radius: 25px;
+    font-weight: bolder;
+}
+.python-referenes-btn {
+    margin-top: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    width: 200px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border-radius: 25px;
+    font-weight: bolder;
+}
+
+/* ========================HTML-container4=====================*/
+
+.html-container5 {
+    height: 530px;
+    background-color: white;
+    display: flex;
+    color: black;
+}
+.html-container2-heading-text {
+    color: black;
+    font-size: 92px;
+    font-weight: 750;
+    padding-bottom: 20px;
+}
+.sql-text-style {
+    padding-top: 10px;
+    font-size: 17px;
+    font-weight: bolder;
+    color: black;
+}
+.learn-sql-btn {
+    margin-top: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    width: 200px;
+    background-color: #04AA6D;;
+    color: white;
+    font-size: 15px;
+    border-radius: 25px;
+    font-weight: bolder;
+}
+.sql-referenes-btn {
+    margin-top: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-radius: 25px;
+    font-weight: bolder;
+}
+
+/* ============ container6 ================== */
+
+.html-container6 {
+    padding-top: 100px;
+    background-color: #282A35;
+    /* height: auto; */
+    /* width: 100%;
+    border: 1px solid yellow; */
+}
+
+.card-slot {
+    display: flex;
+    justify-content: space-around;
+    /*padding: auto;
+    height: 300px; */
+    align-items: center;
+    padding-bottom: 50px;
+}
+.card {
+    height: 250px;
+    width: 44%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 17px;
+    /* font-weight: bolder; */
+    color: #282A35;
+}
+
+/* ============php card============ */
+.php-card {
+    background-color: #FFC0C7;
+}
+.php-card > span {
+    font-weight: bolder;
+}
+
+.php-card-heading {
+    color: black;
+    font-size: 45px;
+    font-weight: 700;
+    padding: 24px;
+}
+
+.php-card-btn {
+    margin-top: 40px;
+    width: 200px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px solid black;
+    background-color: #282A35;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    border-radius: 25px;
+   
+}
+
+/* =================jquery card============== */
+.JQuery-card {
+    background-color:  #FFF4A3;
+}
+.JQuery-card > span {
+    font-weight: bolder;
+}
+
+.JQuery-card-heading {
+    color: black;
+    font-size: 45px;
+    font-weight: 700;
+    padding: 24px;
+}
+
+.JQuery-card-btn {
+    margin-top: 40px;
+    width: 200px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px solid black;
+    background-color: #282A35;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    border-radius: 25px;
+   
+}
+
+/* ============Java card============ */
+.java-card {
+    background-color: #F3ECEA;
+}
+.java-card > span {
+    font-weight: bolder;
+}
+
+.java-card-heading {
+    color: black;
+    font-size: 45px;
+    font-weight: 700;
+    padding: 24px;
+}
+
+.java-card-btn {
+    margin-top: 40px;
+    width: 200px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px solid black;
+    background-color: #282A35;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    border-radius: 25px;
+   
+}
+
+/* ============C++ card============ */
+.cpp-card {
+    background-color: #F3ECEA;
+}
+.cpp-card > span {
+    font-weight: bolder;
+}
+
+.cpp-card-heading {
+    color: black;
+    font-size: 45px;
+    font-weight: 700;
+    padding: 24px;
+}
+
+.cpp-card-btn {
+    margin-top: 40px;
+    width: 200px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px solid black;
+    background-color: #282A35;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    border-radius: 25px;
+}
+
+/* ============W3CSS card============ */
+.w3css-card {
+    background-color: #96D4D4;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    /* #96D4D4; #E7E9EB*/
+}
+.w3css-card > span {
+    font-weight: bolder;
+}
+
+.w3css-card-heading {
+    color: black;
+    font-size: 45px;
+    font-weight: 700;
+    padding: 24px;
+}
+
+.w3css-card-btn {
+    margin-top: 40px;
+    width: 200px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px solid black;
+    background-color: #282A35;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    border-radius: 25px;
+   
+}
+
+/* ============Bootstrp card============ */
+.bootstrap-card {
+    background-color: #E7E9EB;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    /* #96D4D4; #E7E9EB*/
+}
+.bootstrap-card > span {
+    font-weight: bolder;
+}
+
+.bootstrap-card-heading {
+    color: black;
+    font-size: 45px;
+    font-weight: 700;
+    padding: 24px;
+}
+.bootstrap-card-btn{
+    display: flex;
+}
+
+.bootstrap-card-btn1 {
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 50px;
+    
+    width: 200px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px solid black;
+    background-color: #282A35;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    border-radius: 25px;
+}
+
+/* ================== HTMP Container7 =================== */
+
+.html-container7 {
+    background-color:  #282A35;
+    font-size: 28px;
+    font-weight: 500;
+    padding-top: 50px;
+    /* padding-bottom: 50px; */
+    /* display: flex; */
+    font-weight: bolder;
+}
+
+.container7-card-slot {
+    color: #282A35;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    /* align-items: center; */
+}
+
+.container7-card {
+    width: 19%;
+    height: 115px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.csharp-card-slot {
+    background-color: #FFC0C7;
+}
+.r-card-slot {
+    background-color: #FFF4A3;
+}
+.kotlin-card-slot {
+    background-color: #E7E9EB;
+}
+.mysql-card-slot {
+    background-color: #E7E9EB;
+}
+
+/* ==========slot2========= */
+.nodeJS-card-slot {
+    background-color: #96D4D4;
+}
+.react-card-slot {
+    background-color: #FFC0C7;
+}
+.json-card-slot {
+    background-color: #FFF4A3;
+}
+.angularJS-card-slot {
+    background-color: #E7E9EB;
+}
+
+/* ==========slot3========= */
+.w3js-card-slot {
+    background-color: #E7E9EB;
+    text-align: center;
+}
+.xml-card-slot {
+    background-color: #96D4D4;
+}
+.sass-card-slot {
+    background-color: #FFC0C7;
+}
+.icons-card-slot {
+    background-color: #FFF4A3;
+    /* #E7E9EB; */
+}
+
+/* ==========slot4========= */
+
+.rwd-card-slot {
+    background-color: #E7E9EB;
+    text-align: center;
+}
+.graphics-card-slot {
+    background-color: #E7E9EB;
+}
+.svg-card-slot {
+    background-color: #96D4D4;
+}
+.canvas-card-slot {
+    background-color: #FFC0C7;
+    /* #E7E9EB; */
+}
+
+/* ==========slot5========= */
+
+.raspberry-card-slot {
+    background-color: #FFF4A3;
+    text-align: center;
+}
+.cyber-card-slot {
+    background-color: #E7E9EB;
+}
+.colors-card-slot {
+    background-color: #E7E9EB;
+}
+.git-card-slot {
+    background-color: #96D4D4;
+    /* #E7E9EB; */
+}
+
+/* ==========slot6========= */
+
+.matplotlib-card-slot {
+    background-color: #E7E9EB;
+}
+.numpy-card-slot {
+    background-color: #FFF4A3;;
+}
+.pandas-card-slot {
+    background-color: #E7E9EB;
+}
+.scipy-card-slot {
+    background-color: #E7E9EB;
+    /* #E7E9EB; */
+}
+
+/* ==========slot7========= */
+
+.asp-card-slot {
+    background-color: #E7E9EB;
+}
+.accessibility-card-slot {
+    background-color: #E7E9EB;
+}
+.appml-card-slot {
+    background-color: #FFF4A3;
+}
+.go-card-slot {
+    background-color: #E7E9EB;
+    /* #E7E9EB; */
+}
+
+/* ============= HTML-container8 ================= */
+.html-container8 {
+    background-color:  #282A35;
+    font-size: 28px;
+    font-weight: 500;
+    /* padding-top: 50px; */
+    padding-bottom: 40px;
+    /* display: flex; */
+    font-weight: bolder;
+}
+
+.container8-card-slot {
+    color: #282A35;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.container8-card {
+    width: 44%;
+    height: 115px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exel-card-slot {
+    background-color: #04AA6D;
+}
+
+.google-card-slot {
+    background-color: #E7E9EB;
+}
+
+/* ========== slot2 =========== */
+
+.ml-card-slot {
+    background-color: #FFC0C7;
+}
+
+.ai-card-slot {
+    background-color: #E7E9EB;
+}
+
+/* ========== slot3 =========== */
+
+.statistics-card-slot {
+    background-color: #96D4D4;
+}
+
+.datas-card-slot {
+    background-color: #FFF4A3;
+}
+
+/* ==============HTML container9============== */
+
+.html-container9 {
+    height: 460px;
+    background-color: #F3ECEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container9-heading {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.container9-content > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container9-text {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
+/* ==============HTML container10============== */
+
+.html-container10 {
+    height: 590px;
+    background-color: #96D4D4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container10-heading {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Freckle Face', cursive;
+    display: flex;
+    justify-content: center;
+}
+
+.container10-content > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container10-text {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Freckle Face', cursive;
+    font-weight: bolder;
+}
+
+.container10-btn {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    background-color: #282A35;
+    color: white;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+/* ==============HTML container11============== */
+
+.html-container11 {
+    height: 520px;
+    background-color: #282A35;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.container11-heading {
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+    display: flex;
+    justify-content: center;
+}
+
+.container11-text {
+    font-size: 18px;
+    display: flex;
+    padding : 20px;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.container11-content
+{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    width: 100%;
+}
+
+.container11-btn-container {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-around;
+
+}
+
+.exercise-btn {
+    width: 42%;
+    height: 200px;
+    display: flex;
+    font-size: 30px;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #04AA6D;
+    align-items: center;
+    font-weight: 700;
+}
+
+.quizzes-btn {
+    width: 42%;
+    height: 200px;
+    display: flex;
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: #FFF4A3;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 700;
+}
+
+/* ==============HTML container12============== */
+
+.html-container12 {
+    height: 120%;
+    background-color: #E7E9EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container12-heading {
+    font-size: 42px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+.container12-content > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container12-text {
+    padding-top: 25px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.container12-btn {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #282A35;
+    color: white;
+    border-radius: 25px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
