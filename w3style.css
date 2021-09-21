@@ -211,7 +211,7 @@ body{
     border-left-width: thick;
     border-right-width: thick;
     border-bottom-width: thick;
-
+    box-shadow: 1px 1px 1px 1px rgb(170, 165, 165);
     background-color: #E7E9EB;
     border-radius: 5px;
     color: black;
